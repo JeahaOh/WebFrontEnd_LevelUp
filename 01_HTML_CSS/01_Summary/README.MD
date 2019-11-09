@@ -14,7 +14,7 @@
 대부분의 경우 표준화 제정 단계의 ‘권고안(REC)’에 해당하는 기술을 표준이라고 생각하면 됨.  
   
 # 크로스 브라우징
-EX는 그만 서라 제발.  
+IE는 그만 서라 제발.  
   
 # 웹 접근성
   
@@ -55,24 +55,24 @@ HTML파일 작성 할 때 VS Code Status Bar에서 Go Live 버튼 누르면 Live
 명령 이름이나 키 바인딩(")으로 검색 할 수 있다.  
 키바인딩으로 검색 시 `"cmd + control + alt` 와 같이 "를 닫지 않고 검색하는 것이 좋다.  
 
-|       Windows 단축키       |        macOS 단축키        | 설명 |
-|--------------------------|---------------------------|---|
-|“Ctrl + B"                | "Cmd + B"                 | 사이드바 열기/닫기|
-|“Ctrl + P"                | "Cmd + P"                 | 빠른 열기(파일이나 기호 탐색)|
-|“Ctrl + Shift + P"        | "Cmd + Shift + P"         | 모든 명령 표시(에디터의 모든 명령에 접근)|
-|“Ctrl + F"                | "Cmd + F"                 | 찾기(검색)|
-|“Ctrl + H"                | "Cmd + Opt(Alt) + F"      | 찾기(검색)/바꾸기(대체)|
-|“Alt + Up"                | "Alt + Up"                | 줄 위로 이동|
-|“Alt + Down"              | "Alt + Down"              | 줄 아래로 이동|
-|“Shift + Alt + UpArrow"   | "Shift + Alt + UpArrow"   | 위에 줄 복사|
-|“Shift + Alt + DownArrow" | "Shift + Alt + DownArrow" | 아래 줄 복사|
-|“Tab"                     | "Tab"                     | 들여쓰기|
-|“Shift + Tab"             | "Shift + Tab"             | 내어쓰기|
-|“Ctrl + PageUp"           | "Cmd + Shift + ["         | 이전 편집기 열기(좌측 창으로 전환)|
-|“Ctrl + PageDown"         | "Cmd + Shift + ]"         | 다음 편집기 열기(우측 창으로 전환)|
-|“Ctrl + \"                | "Cmd + \"                 | 편집기 분할(백슬래쉬)|
-|“Ctrl + 숫자"              | "Cmd + 숫자"               | 숫자번째 분할된 편집기 그룹에 포커스|
-|“Ctrl + W"                | "Cmd + W"                 | 편집기 닫기|
+|       Windows 단축키       |        macOS 단축키        |   설명 |  
+|  --------------------------|  ---------------------------|  ---|  
+|  “Ctrl + B"                |   "Cmd + B"                 |   사이드바 열기/닫기|  
+|  “Ctrl + P"                |   "Cmd + P"                 |   빠른 열기(파일이나 기호 탐색)|  
+|  “Ctrl + Shift + P"        |   "Cmd + Shift + P"         |   모든 명령 표시(에디터의 모든 명령에 접근)|  
+|  “Ctrl + F"                |   "Cmd + F"                 |   찾기(검색)|  
+|  “Ctrl + H"                |   "Cmd + Opt(Alt) + F"      |   찾기(검색)/바꾸기(대체)|  
+|  “Alt + Up"                |   "Alt + Up"                |   줄 위로 이동|  
+|  “Alt + Down"              |   "Alt + Down"              |   줄 아래로 이동|  
+|  “Shift + Alt + UpArrow"   |   "Shift + Alt + UpArrow"   |   위에 줄 복사|  
+|  “Shift + Alt + DownArrow" |   "Shift + Alt + DownArrow" |   아래 줄 복사|  
+|  “Tab"                     |   "Tab"                     |   들여쓰기|  
+|  “Shift + Tab"             |   "Shift + Tab"             |   내어쓰기|  
+|  “Ctrl + PageUp"           |   "Cmd + Shift + ["         |   이전 편집기 열기(좌측 창으로 전환)|  
+|  “Ctrl + PageDown"         |   "Cmd + Shift + ]"         |   다음 편집기 열기(우측 창으로 전환)|  
+|  “Ctrl + \"                |   "Cmd + \"                 |   편집기 분할(백슬래쉬)|  
+|  “Ctrl + 숫자"              |   "Cmd + 숫자"               |   숫자번째 분할된 편집기 그룹에 포커스|  
+|  “Ctrl + W"                |   "Cmd + W"                 |   편집기 닫기|  
   
 # 이미지에 대한 이해
 ## Bitmap And Vector
@@ -142,4 +142,62 @@ SVG(Scalable Vector Graphics)는 마크업 언어(HTML/XML) 기반의 벡터 그
 - JavaScript로 Event Handling 가능
 - 코드 혹은 파일로 사용 가능
   
+# 특수 문자 용어 정리
+| 기호 |  영어(발음)  |  한글
+|-----|-----|  ---|  
+|  `  |  Grave(그레이브)  |  -
+|  ~  |  Tilde(틸드)  |  물결표시
+|  !  |  Exclamation(엑스클러메이션) mark  |  느낌표
+|  @  |  At(엣) sign  |  골뱅이
+|  #  |  Number(넘버) sign, Sharp(샵)  |  샵, 우물 정
+|  $  |  Dollar(달러) sign  |  달러
+|  %  |  Percent(퍼센트) sign  |  퍼센트
+|  ^  |  Caret(캐럿)  |  -
+|  &  |  Ampersand(엠퍼센드)  |  -
+|  *  |  Asterisk(에스터리스크)  |  별표
+|  -  |  Hyphen(하이픈), Dash(대쉬)  |  마이너스
+|  _  |  Underscore(언더스코어), Low dash(로대쉬)  |  밑줄
+|  =  |  Equals(이퀄) sign  |  이꼬르
+|  “  |  Quotation(쿼테이션) mark  |  큰 따옴표
+|  ‘  |  Apostrophe(아포스트로피)  |  작은 따옴표
+|  :  |  Colon(콜론)  |  땡땡이
+|  ;  |  Semicolon(세미콜론)  |  털 달린 땡땡이
+|  ,  |  Comma(콤마)  |  쉼표
+|  .  |  Period(피리어드), Dot(닷)  |  점, 마침표
+|  ?  |  Question(퀘스천) mark     |  물음표
+|  /  |  Slash(슬래쉬)             |  -
+| `|` |  Vertical bar(버티컬 바)    |  -
+|  \  |  Backslash(백슬래쉬)        |  -
+|  () |  Parenthesis(퍼렌서시스)     |  (소)괄호
+|  {} |  Brace(브레이스)  |  중괄호
+|  [] |  Bracket(브래킷)  |  대괄호
+|  <> |  Angle Bracket(앵글 브래킷)  |  꺽쇠괄호
   
+# 오픈소스 & 라이센스
+## 오픈소스
+오픈소스라 하면 보통 무료 저작권이고 공짜로 사용해도 문제가 없다고 생각하지만 사실 다양한 종류의 오픈소스 라이선스가 존재하며 개인적 이용은 가능하지만, 상업적 이용에 제한이 있거나 경우에 따라 비용을 지불해야 할 수도 있음.  
+  
+현실적으론 처음부터 끝까지 모든 코드를 직접 작성할 수 없기 때문에 많은 경우 오픈소스에 의존하게 됨.  
+개인적인 사용을 목적으로는 문제가 없겠지만, 회사에서(상업적으로) 아무 생각 없이 사용하다가는 문제가 돼서 해고당하거나 피해 보상을 해줘야 할지도 모름.  
+물론 인터넷에 떠도는 코드 몇 줄 복사해서 썼다고 그 정도 심각한 문제가 되진 않겠지만, 항상 조심하는 것이 좋음.  
+회사에서 작업 중에 괜찮은 오픈소스를 찾았다면 반사적으로 ‘License’부터 찾으세요!  
+  
+## Apache License
+아파치 소프트웨어 재단에서 자체 소프트웨어에 적용하기 위해 만든 라이선스.  
+개인적/상업적 이용, 배포, 수정, 특허 신청이 가능.  
+  
+## MIT License
+매사추세츠공과대학(MIT)에서 소프트웨어 학생들을 위해 개발한 라이선스.  
+개인 소스에 이 라이선스를 사용하고 있다는 표시만 지켜주면 되며, 나머지 사용에 대한 제약은 없기 때문에 인기가 많음.  
+  
+## BSD License
+BSD(Berkeley Software Distribution)는 버클리 캘리포니아대학에서 개발한 라이선스.  
+MIT와 동일하게 라이선스 표시만 지켜주시면 됨.  
+  
+## Beerware
+오픈소스 개발자에게 맥주를 사줘야 하는 라이선스!
+  
+그 외 더 많은 오픈소스 라이선스에 대한 정보 -> OpenSource.org  
+  
+  
+# 
