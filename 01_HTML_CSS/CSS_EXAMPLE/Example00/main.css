@@ -1,0 +1,15 @@
+.link {
+  color: steelblue;
+}
+
+.box {
+  width: 300px;
+  height: 200px;
+  background: red;
+  font-size: 30px;
+  margin: 10px;
+}
+.box2 {
+  padding: 20px;
+  color: white;
+} 

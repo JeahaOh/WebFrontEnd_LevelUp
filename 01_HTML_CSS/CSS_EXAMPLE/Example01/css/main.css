@@ -1,0 +1,57 @@
+body {
+  /* 브라우저마다 기본 설정으로 BODY 요소에 margin과 padding의 값이 설정되어 있음. */
+  /* 각각의 브라우저마다 BODY 요소가 다른 값을 가지고 있을 수 있으므로 직접 일정하게 초기화해서 사용하는게 좋음. */
+  /* 0은 단위를 사용하지 않음. */
+  margin: 0;
+  padding: 0;
+}
+.header {
+  /* 화면에는 다음의 값으로 랜더링 되어 있는데 여러 이유로 생략 가능. */
+  /* width: 100%; */
+  /* height: 75px; */
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  /* 요소테두리선-아래: 1px두께 가는실선 밝은회색; - header 하단에 회색의 선이 나타남. */
+}
+.container {
+  /* height: 75px; */
+  width: 980px;
+  margin: auto;
+  /* 요소바깥여백: 여백자동; - 이 속성과 값은 container를 수평 가운데 정렬하는 속성으로 쓰임. */
+}
+.container-left {
+  /* width: 370px; */
+  /* height: 75px; */
+  /* float: left; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.logo {
+  margin-right: 5px;
+  float: left; 
+  /* 수평정렬: 왼쪽부터차례대로; - logo와 menu를 수평 정렬하기 위해 사용. 이 속성의 정확한 의미는 수평 정렬이 아님. */
+}
+/* logo의 자식 요소인 img 태그 - 선택자에서 띄어쓰기는 자식요소를 의미합니다. */
+.logo img {
+  display: block;
+  /* 요소특성: 형태위주; - img(이미지) 하단에 생기는 불필요한 여백을 없애기 위해서 사용. */
+}
+.menu {
+  float: left;
+  /* logo와 menu를 수평 정렬하기 위해 사용. */
+}
+.menu-item {
+  font-size: 16px;
+  padding: 8px 10px;
+  /* padding-top: 8px; padding-bottom: 8px; padding-left: 10px; padding-right: 10px; 과 같음. */
+  float: left;
+  /* 각 menu-item들을 수평 정렬하기. */
+}
+
+/* float: left; 를 사용하고 마무리할 때 필요. */
+/* float: left;를 사용한 해당 HTML 요소의 부모 요소에게 class="clearfix"를 입력하여 CSS float 속성에서 발생하는 현상을 해제함. */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
